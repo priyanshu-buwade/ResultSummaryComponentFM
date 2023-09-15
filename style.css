@@ -21,7 +21,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 5px 5px 10px -10px, 0 0 10px -8px;
     object-fit: contain;
 }
@@ -29,8 +29,9 @@ p {
 .inner-div1 {
     width: 290px;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 20px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,6 +41,8 @@ p {
 .inner-div1>p {
     margin: 0 20px;
     color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-size: 17px;
 }
 
 .inner-div1 h3 {
@@ -47,6 +50,7 @@ p {
 }
 
 .inner-div1 h2 {
+    font-size: 27px;
     color: hsl(0, 0%, 100%);
 }
 
@@ -60,13 +64,13 @@ p {
 }
 
 .result h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 800;
 }
 
 .result p {
     font-size: 14px;
-    margin-top: -40px;
+    margin-top: -45px;
     color: hsl(241, 100%, 84%);
 }
 
@@ -103,26 +107,26 @@ p {
 
 #out-tab1 {
     color: hsl(0, 100%, 67%);
-    background-color: hsla(0, 100%, 67%, 0.1);
+    background-color: hsla(0, 100%, 67%, 0.075);
 }
 
 #out-tab2 {
     color: hsl(39, 100%, 56%);
-    background-color: hsla(39, 100%, 56%, 0.1);
+    background-color: hsla(39, 100%, 56%, 0.075);
 }
 
 #out-tab3 {
     color: hsl(166, 100%, 37%);
-    background-color: hsla(166, 100%, 37%, 0.1);
+    background-color: hsla(166, 100%, 37%, 0.075);
 }
 
 #out-tab4 {
     color: hsl(234, 85%, 45%);
-    background-color: hsla(234, 85%, 45%, 0.1);
+    background-color: hsla(234, 85%, 45%, 0.075);
 }
 
 .inner-tab2 p {
-    color: hsl(241, 100%, 89%);
+    color: hsl(0, 0%, 65%);
 }
 
 .inner-tab2 .color-black {
@@ -136,7 +140,7 @@ p {
     border-radius: 50px;
     height: 50px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 18px;
     border: 0;
 }
@@ -151,7 +155,7 @@ p {
         height: 100vh;
     }
 
-    .outer-div {
-        width: 330px;
+    .outer-div, .inner-div1, .inner-div2 {
+        width: 350px;
     }
 }
